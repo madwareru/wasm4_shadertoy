@@ -4,9 +4,6 @@ extern crate lazy_static;
 #[cfg(feature = "buddy-alloc")]
 mod alloc;
 mod wasm4;
-
-mod tile;
-mod random;
 mod game_stage;
 
 use std::sync::{Mutex};

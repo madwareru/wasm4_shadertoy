@@ -5,6 +5,7 @@ extern crate lazy_static;
 mod alloc;
 mod wasm4;
 mod game_stage;
+mod random;
 
 use std::sync::{Mutex};
 
